@@ -14,7 +14,7 @@ class Tile(models.Model):
     status = models.CharField(max_length=8, choices=STATUS_CHOICES, default='Pending')
 
     def __str__(self):
-        return "{} - {}".format(self.tile_name, self.status)
+        return self.tile_name
 
 class Task(models.Model):
     TYPE_CHOICES =( 
