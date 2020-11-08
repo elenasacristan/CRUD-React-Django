@@ -1,0 +1,27 @@
+.carousel, .carousel-inner, .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    height: 100% ;
+}
+
+.carousel-indicators {
+    bottom: 10px;
+}
+
+.carousel-indicators li{
+    background-color: rgb(177, 177, 177);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: #626262;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 7%;
+}
+
+.side {
+    color: #626262;
+    font-size: 1.5rem;
+}

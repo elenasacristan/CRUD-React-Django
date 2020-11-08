@@ -1,0 +1,12 @@
+.navbar{
+    background-color: transparent;
+    border-bottom: 1px solid hsla(0,0%,59%,.3);
+    width: 95%;
+    margin: auto;
+}
+
+.navbar a{
+    color: black;
+}
+
+

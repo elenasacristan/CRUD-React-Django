@@ -1,0 +1,53 @@
+
+.tasks .card {
+    color:rgb(10, 10, 10);
+    border: none;
+    height: 100%;
+}
+
+.tasks .card-header {
+    background-color: #ffb74bde;
+    color: rgb(100, 100, 100);
+}
+
+.tasks .card-body{
+    padding: 10% 15% 20%;
+    background-color:rgb(255, 255, 255);
+}
+
+.tasks .btn{
+    background-color: transparent;
+    position: relative;
+    margin-left: 10px;
+}
+
+.tasks .fa {
+    position: absolute;
+    right: 10px;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px #777;
+}
+
+.tasks a .fa {
+    color: rgb(43, 151, 170);
+}
+
+.tasks button .fa {
+    color: rgb(197, 70, 70);
+}
+
+.task-details{
+    font-size: 0.6rem;
+}
+
+.task-details-text{
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.tasks .card-body{
+    font-size:0.7rem;
+}

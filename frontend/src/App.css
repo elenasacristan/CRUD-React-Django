@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: gray;
+}
+
+h3,
+h5,
+h6 {
+  margin: 0;
+}
+
+.form-control, form input, form option{
+font-size: 0.8rem;
+}
+
+.heading{
+  color:#51493d;
+}
