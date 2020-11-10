@@ -1,13 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../images/logo.png";
 import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg">
       <Link className="navbar-brand" to="/">
-        <img src={Logo} alt="logo-incling" width="120" />
+        Logo
       </Link>
       <button
         className="navbar-toggler"
@@ -18,7 +17,7 @@ const Navbar = () => {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-       <i className="fa fa-bars"></i>
+        <i className="fa fa-bars"></i>
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
